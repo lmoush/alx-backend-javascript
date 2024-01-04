@@ -8,6 +8,5 @@ xport default function guardrail(mathFunction) {
   } finally {
     queue.push('Guardrail was processed');
   }
-
   return queue;
 }
